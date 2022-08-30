@@ -1,0 +1,21 @@
+.listContainer {
+  width: 50%;
+  height: 100%;
+
+  border: 1px solid;
+
+  .list {
+    margin: 55px auto 0;
+
+    width: 70%;
+    height: 50%;
+    border: 1px solid;
+  }
+
+  button {
+    display: block;
+    margin: 55px auto 0;
+    width: 120px;
+    cursor: pointer;
+  }
+}

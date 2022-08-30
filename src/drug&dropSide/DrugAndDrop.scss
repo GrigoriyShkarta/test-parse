@@ -1,0 +1,28 @@
+.dd-container {
+  height: 100%;
+  width: 50%;
+
+  .drop-area-open, .drop-area-close {
+    margin: 55px auto 0;
+    width: 70%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .drop-area-open {
+    border: 1px dashed;
+  }
+
+  .drop-area-close {
+    border: 1px solid;
+  }
+
+  p {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
